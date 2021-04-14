@@ -5,8 +5,8 @@
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 function arrAdd(newArr, n) {
-  arr.add[n];
-  return newArr;
+  const add = newArr[+n];
+  return add;
 }
 
 console.log(arrAdd(arr, 2));

@@ -1,10 +1,11 @@
 let x = ['Hello', 'Goodbye'];
+let y = [...x]
 
 function arrString(arr, str) {
-  x.push(str);
-  x.unshift(str);
-  return x;
+  y.push(str);
+  y.unshift(str);
+  return y
 }
 
-console.log(x);
-console.log(arrString(x, 'fuck'));
+console.log(x)
+console.log(arrString(y,'fuck'))
